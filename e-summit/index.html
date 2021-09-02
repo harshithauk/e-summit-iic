@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Siddaganga Institute of Technology</title>
+  <!-- google fonts  -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat|Ubuntu" rel="stylesheet" >
+  <!-- CSS Stylesheets -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Font Awesome -->
+    <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+
+<!-- Bootstrap scripts -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script><!-- <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script> -->
+  </head>
+
+  <body>
+    <section class="colored-section" id="title">
+  <!-- navigation bar -->
+  <div class="conatainer-fluid">
+            <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark " >
+              <a class="navbar-brand" href="">E-summit</a>
+              <button type="button" class="navbar-toggler"  data-toggle="collapse" data-target="#navbarToggler" aria-expanded="false" aria-controls="navbarToggler">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div id="navbarToggler" class="collapse  navbar-collapse  " >
+
+                <ul class="navbar-nav ml-auto">
+                  <li class="nav-item active">
+                  <a class="nav-link" href="team.html">Team</a>
+                  </li>
+                  <li class="nav-item active">
+                  <a class="nav-link" href="#about"> About</a>
+                  </li>
+                  <li class="nav-item active">
+                  <a class="nav-link" href="#event"> Events</a>
+                  </li>
+                  <li class="nav-item active">
+                  <a class="nav-link" href="#footer"> Contact</a>
+                  </li>
+                </ul>
+             </div>
+
+            </nav>
+        </div>
+      </section>
+
+
+<section id="main1">
+  <!-- <main_heading> -->
+   <!-- <div class="text-center"> -->
+       <div class="jumbotron head"><center> <h1><br />Siddaganga Institute Of Technology<br /></h1></center>
+        <br /><div class="space"><img src="sitlogo2.png" height="140px">
+           &ensp;&ensp;&ensp;&ensp; &ensp;&ensp;&ensp;&ensp;
+           <img src="iiclogo2.png" height="160px">
+
+         </div>
+
+          <center>
+            <h1>Institution's Innovation Council<br><strong>E-SUMMIT 2020</strong></h1> </div>
+          </center>
+</div>
+ </section>
+<section id="main2">
+
+      <!-- esummit-logo -->
+        <img src="esummit.png" class="rounded mx-auto d-block" height="450px"width="800px" >
+
+<div>
+  <!-- Count down -->
+    <center><h2><center>Count down for our Event  </center></h2>
+          <table style="border:1px solid black;text-align:center;">
+              <tr style="font-size:60px">
+                <td id="days"><center>00</center></td>
+                <td id="hours"><center>00</center></td>
+                <td id="min"><center>00</center></td>
+                <td id="sec"><center>00</center></td>
+              </tr>
+              <tr>
+                <td><center>&ensp;&ensp;&ensp;&ensp;Days&ensp;&ensp;&ensp;&ensp;</center></td>
+                <td><center>&ensp;&ensp;&ensp;&ensp;Hours&ensp;&ensp;&ensp;</center></td>
+                <td><center>&ensp;&ensp;&ensp;&ensp;Minutes&ensp;&ensp;&ensp;&ensp;</center></td>
+                <td><center>&ensp;&ensp;&ensp;&ensp;seconds&ensp;&ensp;&ensp;&ensp;</center></td>
+              </tr>
+            </table>
+            </center>
+            <script type="text/javascript">
+
+
+              var total=new Date("Mar 16,2020 09:00:00").getTime();
+              function count()
+              {
+                var now = new Date();
+                var currentTime= now.getTime();
+
+                var diff=total-currentTime;
+                var s=Math.floor(diff/1000);
+                var m =Math.floor(s/60);
+                var h = Math.floor(m/60);
+                var d = Math.floor(h/24);
+
+              h=h%24;
+              m=m%60;
+              s=s%60;
+
+              h=(h<10)?"0"+h:h;
+              m=(m<10)?"0"+m:m;
+              s=(s<10)?"0"+s:s;
+              d=(d<10)?"0"+d:d;
+
+
+              document.getElementById("days").innerHTML=d;
+              document.getElementById("hours").innerHTML=h;
+              document.getElementById("min").innerHTML=m;
+              document.getElementById("sec").innerHTML=s;
+
+              setTimeout(count,1000);
+              }
+              count();
+
+            </script>
+            <br /><br / />  <br /><br />
+</div>
+</div>
+</div>
+</section>
+
+
+<section class="white-section" id="about">
+  <!-- content of event -->
+  <p class="lead">
+    <div class="size"><center>
+
+
+      <h3><b>About College</b></h3><br />
+      Siddaganga Institute Of Technology,an autonoums institute affiliated to V.T.U,Belagavi,<br />
+      is nested in the picturesque environment of Tumakuru, close to Bengaluru.Ever since its <br />
+      inception in 1963, the college has gifted the nation with complement professionals.<br />
+      The campus is boasts of aesthetic , chromatic and ethereal greenary teamed with <br />
+      state-of-the-art infrastructure.
+    </center></div>
+  </p>
+  <div class="jumbotron">
+  <div class="container-fluid padding">
+      <div class="row abt text-center">
+        <div class="col-12">
+         <h2 class="display-4">What E-summit is all about?</h2>
+       </div>
+           <hr class="my-4">
+           <div class="col-12">
+           <p class="lead"><strong>IIC</strong> is the group which is directly under the collaboration with
+             <strong><a href="https://mhrd.gov.in/">MHRD</a></strong>
+             to promote <strong>INNOVATION</strong> in the campus.We are coming up with first edition
+             of E-SUMMIT 2020.E-summit'20 is the annual buisness fest organised by IIC which opens the doors
+             to the world of Entreprenurship.With the motto to spread awareness about Entreprenurship.
+             E-summit also promises to provide plethora of opportunities to the students to work on their skills
+             and breathe life into the Entreprenur within them.
+             <br ><br /><br /></p></div></div></div>
+            </div>
+<center>
+<img src="esummit_poster.jpg" height="580px">
+</center>
+
+</section>
+<br /><br />
+
+          <section class="white-section" id="event">
+              <h2><center>
+                EVENTS<br /></h2>
+              </center>
+<!-- EVENTS               -->
+<div class="container-fluid padding">
+    <div class="row padding">
+        <div class="col-md-4">
+            <div class="card">
+
+                <img class="card-img-top" src="techtalk.jpg" />
+              <div class="card-body">
+                <h3 class="card-title">TECH TALK</h3>
+                <p class="card-text"><b>Chance to discover a <em>world of technology </em>and <em>innovation </em>that you
+                never dreamt existed.</b></p><br /><br />
+                <a href="task1.html" class="btn btn-outline-secondary">Know More</a>
+              </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card">
+                <img class="card-img-top" src="virtual.jpg"  height="185spx"/>
+              <div class="card-body">
+                <h3 class="card-title">IDEATHON & B-PLAN</h3>
+                <p class="card-text"><b>Do you have an <em>idea</em> and didnt get a chance to present it?
+                </b><br />
+
+                </p>
+                <a href="task2.html" class="btn btn-outline-secondary">Know More</a>
+              </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card">
+                <img class="card-img-top" src="bizquiz1.jpg" />
+              <div class="card-body">
+                <h3 class="card-title">BIZ QUIZ</h3>
+                <p class="card-text"><b>Are you the kind that thrives on the buisness on the buisness section
+                of news every day?Well,we make you an offer you cant refuse.</b></p>
+                <a href="task3.html" class="btn btn-outline-secondary">Know More</a>
+              </div>
+            </div>
+        </div>
+      </div>
+      <div class="row padding">
+    &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp; &ensp;&ensp;
+        <div class="col-md-5">
+            <div class="card ">
+                <img class="card-img-top" src="1dollarventure.jpg" />
+              <div class="card-body">
+                <h3 class="card-title">1$ VENTURE</h3>
+                <p class="card-text"><b> Experiential exercise which involves students becoming instant
+                   entrepreneurs with limited resources.</b></p><br /><br />
+                <a href="task5_onedollar.html" class="btn btn-outline-secondary">Know More</a>
+
+              </div>
+            </div>
+        </div>
+        &ensp;
+        <div class="col-md-5">
+            <div class="card ">
+                <img class="card-img-top" src="hackathon.jpg" />
+              <div class="card-body">
+                <h3 class="card-title">HACKATHON</h3>
+                <p class="card-text"><b>Be a part of the event to validate your <em>idea</em> and create
+                an initial prototype.</b></p><br /><br /><br />
+                <a href="task4.html" class="btn btn-outline-secondary">Know More</a>
+              </div>
+            </div>
+        </div>
+      </div>
+
+    </div>
+    </div>
+</section>
+            <!-- Contact details -->
+
+
+            <footer id="footer">
+              <div class="container-fluid">
+
+                <center><h3 ><font color="black">Connect with us at :</font></h3>
+  <div style="font-size: 32px">&ensp;&ensp;
+                <a href="https://facebook.com/sitiic19"><i class="social-icon fab fa-facebook-f" aria-hidden="true" ></i></a>&ensp;&ensp;
+                <a href="https://instagram.com/sit_iic?igshid=1hrl5gidc5224"><i class="social-icon fab fa-instagram" aria-hidden="true" ></i></a>&ensp;&ensp;&ensp;&ensp;
+                <!-- <a href="http://www.gmail.com/iic.sit19@gmail.com"><i class="social-icon fas fa-envelope" aria-hidden="true"></i></a>&ensp;&ensp;&ensp; -->
+                <h6>© Copyright E-SUMMIT IIC 2020 </h6></center>
+  </div>            </div>
+<div class="size">
+<center>
+      <strong>Address:<strong/><br/>
+          <h5>SIDDAGANGA INSTITUTE OF TECHNOLOGY,B.H Road,
+          Tumkur,<br/>Karnataka Tumkur-572103 Karnataka,India<br/></h5>
+      <br/><strong>Contact:</strong>
+      <br/><h5>H K Pranava:&ensp;9481214982<br/>M Nitin Rajendra:&ensp;8197755430</h5>
+      <br/><strong>gmail:</strong>
+      <br/><h5>iic.sit19@gmail.com</h5><br/>
+</center>
+    </div>
+    </div>
+
+      </footer>
+   </body>
+ </html>

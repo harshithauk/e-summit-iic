@@ -1,0 +1,206 @@
+/* Sections */
+.colored-section {
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+.white-section {
+  background-color: #fff;
+}
+
+/* headings */
+h1{
+  /* color: #000000; */
+}
+
+h2{
+  font-family: "Ubuntu-Black";
+  font-size: 3rem;
+  line-height: 1.5;
+}
+.h3{
+  font-family: "Ubuntu";
+  font-size: 3rem;
+  line-height: 3.0;
+}
+
+/* Containers */
+.container-fluid{
+  padding: 3% 15%;
+}
+
+/* Navigation Bar */
+ .nav-link
+{
+  display: block;
+  padding-left: 25px;
+  padding-right: 30px;
+  border-bottom: 1px solid #dee2e6;
+  /* margin-bottom: -1px; */
+   border: 1px solid transparent;
+  border-top-left-radius: 0.25px;
+  border-top-right-radius: 0.25px;
+
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+/* .sticky
+{
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+ */
+/* } */
+
+.jumbotron {
+  padding: 2rem ;
+  margin-bottom:1rem;
+   background-color: #e9ecef;
+  /* border-radius: 0rem; */
+  /* background-image: url("file:///C:/Users/harsh/Desktop/web_development/abstract-connected-dots-technology-concept-260nw-580895128-01-01.jpeg"); */
+  background-size: cover;
+  color: #000000;
+}
+
+/* @media (max-width: 992px)
+.space p{
+  margin-left: 450px;
+}
+
+@media (max-width: 772px)
+.space p{
+  margin-left: 350px;
+}
+
+@media (max-width: 442px)
+.space {
+  margin-left: 250px;
+} */
+
+.space {
+  margin-left:300px;
+}
+.text-center1 {
+
+  text-align: center;
+  position: relative;
+  margin-left: auto;
+  margin-right:auto;
+  width:25%;
+}
+.centre{
+  text-align: center;
+}
+
+#main2{
+  background-color:   #fff;
+}
+
+.head{
+  /* background-color: #ffd600; */
+  background-color: #00BFFF;
+  color: #616161;
+}
+.size{
+  line-height: 2.5rem;
+  font: Ubuntu-black;
+  font-size: 25px;
+
+}
+
+#about{
+  /* background-color: #ff4c68; */
+}
+.abt{
+  width:75%;
+  margin: 0 auto;
+  padding-top: 2rem;
+}
+.abt hr{
+  border-top: 2px solid #b4b4b4;
+  width:95%;
+  margin-top: .3rem;
+  margin-bottom: 1rem;
+}
+
+.padding{
+  padding-bottom: 2rem;
+
+}
+/* EVENT */
+#event{
+  /* background-color: #ff4c70; */
+  /* color: #fff; */
+}
+/* Testimonial section */
+.testimonial-text {
+  font-size: 2.5rem;
+  line-height: 3.0;
+  color: #000000;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 80%;
+  margin: 10px;
+}
+
+/* Footer Section */
+
+#footer{
+  /* background-color: #000000; */
+}
+.social-icon {
+  margin: 30px 20px;
+}
+
+.social-icon:hover{
+  color: #d5d5d5;
+}
+@media (max-width: 1024px) {
+
+  #title {
+    text-align: center;
+    /* background-color: #b4b4b4; */
+
+  }
+
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
+}
+
+
+.fa-facebook,
+.fa-linkedin{
+  color:#3b5998;
+}
+
+.fa-envelope{
+  color: #dd4b39;
+}
+
+.fa-instagram{
+    color: #517fa4;
+}
+
+.fa-facebook: hover,
+.fa-envelope: hover,
+.fa-instagram: hover,
+.fa-linkedin: hover
+{
+  color: #dd4b39;
+}
+/* TASK1 */
+
+#toplayer{
+width:100%;
+height:250px;
+background-color: #1E90FF;
+font-family: "Ubuntu-Black";
+padding: 60px
+}
